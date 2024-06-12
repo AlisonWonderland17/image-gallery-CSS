@@ -73,7 +73,7 @@ h2 {
     display: flex;
 }
 
-.lightbox a > i {
+.lightbox a > #close {
     text-decoration: none;
     color: rgb(212, 219, 225);
     position: absolute;
@@ -83,6 +83,29 @@ h2 {
     padding-top: 15px;
     padding-right: 15px;
 }
+
+.lightbox a > #previous {
+    font-size: 2rem;
+    color: rgb(212, 219, 225);
+    font-weight: 900;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    padding-top: 250px;
+    padding-left: 200px;
+}
+
+.lightbox a > #next {
+    font-size: 2rem;
+    color: rgb(212, 219, 225);
+    font-weight: 900;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    padding-top: 250px;
+    padding-right: 200px;
+}
+
 
 .lightbox-content {
     width: auto;
