@@ -73,6 +73,17 @@ h2 {
     display: flex;
 }
 
+.lightbox a > i {
+    text-decoration: none;
+    color: rgb(212, 219, 225);
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.5rem;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
 .lightbox-content {
     width: auto;
     height: 100%;
