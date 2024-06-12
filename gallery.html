@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
@@ -11,6 +12,8 @@
     <title>Image Gallery</title>
 </head>
 <body>
+
+    <!--IMAGE GALLERY-->
 
     <h2>Copenhagen's Image Gallery</h2>
     
@@ -45,5 +48,43 @@
             <div class="img-description">Amalienborg Palace's facade</div>
         </div>
     </div>
+
+    <!--LIGHTBOX-->
+
+        <div class="lightbox" id="image1">
+            <a href="#img-1" class="close"><i class="fa-solid fa-xmark"></i></a>
+            <div class="lightbox-content">
+                <img src="assets/image-1.jpg" alt="bikes in front of palace">
+            </div>
+        </div>
+
+        <div class="lightbox" id="image2">
+            <a href="#img-2" class="close"><i class="fa-solid fa-xmark"></i></a>
+            <div class="lightbox-content">
+                <img src="assets/image-2.jpg" alt="sights in Copenhagen">
+            </div>
+        </div>
+
+        <div class="lightbox" id="image3">
+            <a href="img-3" class="close"><i class="fa-solid fa-xmark"></i></a>
+            <div class="lightbox-content">
+                <img src="assets/image-3.jpg" alt="Tivoli Gardens">
+            </div>
+        </div>
+
+        <div class="lightbox" id="image4">
+            <a href="img-4" class="close"><i class="fa-solid fa-xmark"></i></a>
+            <div class="lightbox-content">
+                <img src="assets/image-4.jpg" alt="wide alley in Copenhagen">
+            </div>
+        </div>
+
+        <div class="lightbox" id="image5">
+            <a href="img-5" class="close"><i class="fa-solid fa-xmark"></i></a>
+            <div class="lightbox-content">
+                <img src="assets/image-5.jpg" alt="facade of Amalienborg Palace">
+            </div>
+        </div>
+
 </body>
 </html>
